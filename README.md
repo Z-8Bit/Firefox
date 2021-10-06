@@ -30,13 +30,15 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 
 ## Install Vertical Tabs
 
-- Go to =about:config= in your URL bar, search for ~toolkit.legacyUserProfileCustomizations.stylesheets~ and set it to ~true~.
-- Go to =about:profiles= in your URL bar, click "Open Directory" next to your Root Directory under your default profile
-  + If there is no =chrome= folder, create it.
-  + Create a file called =userChrome.css= inside the =chrome= folder.
-  + Copy & Paste the contents of [[https://raw.githubusercontent.com/ranmaru22/firefox-vertical-tabs/main/userChrome.css][userChrome.css]] into your =userChrome.css= file.
+1. In the searchbar, type `about:config`. A dialog will be shown to you. Press the **I accept the risk** button.
+2. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`** and change it to **True**.
+3. Go to your Firefox profile:
+   - In the searchbar, type `about:support` and press `Enter`.
+   - Search for **`Profile Directory`** and click on **`Open Directory`** button.
+4. Create a folder and name it **`chrome`** (with lowercase).
+5. Paste userChrome.css file into the folder.
 
-- Install the [[https://addons.mozilla.org/en-US/firefox/addon/tabcenter-reborn/][Tab Center Reborn]] extension.
+6. Install the [[https://addons.mozilla.org/en-US/firefox/addon/tabcenter-reborn/][Tab Center Reborn]] extension.
   + Make sure to enable "Allow this extension to run in Private windows" so you're not left stranded while browsing.
 - Go to =about:addons= in your URL bar, select /Tab Center Reborn/, go to /Preferences/ and set:
   + /Animations/: on.
