@@ -30,7 +30,7 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 
 ## Credits
 
-_These files are not 100% my original work, they are forked from other repositories and I am grateful for their work._
+<b>These files are not 100% my original work, they are forked from other repositories and I am grateful for their work</b>
 
 1. Modified Proton inspired by [Cascade](https://github.com/andreasgrafen/cascade) 
 
