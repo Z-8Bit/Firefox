@@ -38,7 +38,7 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 4. Create a folder and name it **`chrome`** (in lowercase).
 5. Paste the file userChrome.css into the folder.
 6. Install the [Tab Center Reborn](https://addons.mozilla.org/en-US/firefox/addon/tabcenter-reborn/) extension.
-  + Make sure to enable **`Allow this extension to run in Private windows`** so you're not left stranded while browsing.
+   + Make sure to enable **`Allow this extension to run in Private windows`** so you're not left stranded while browsing.
 7. Go to **`about:addons`** in your URL bar, select **`Tab Center Reborn`**, go to **`Preferences`** and set:
   + Animations: on.
   + Use current browser theme: on, if you want to use dark mode.
