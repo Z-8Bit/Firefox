@@ -1,5 +1,5 @@
 # Firefox CSS
-Just me forking other people's userChrome CSS and modifying it to my liking.
+_Just me forking other people's userChrome CSS and modifying it to my liking._
 
 ## Installation
 
