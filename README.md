@@ -40,11 +40,11 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 6. Install the [Tab Center Reborn](https://addons.mozilla.org/en-US/firefox/addon/tabcenter-reborn/) extension.
    + Make sure to enable **`Allow this extension to run in Private windows`** so you're not left stranded while browsing.
 7. Go to **`about:addons`** in your URL bar, select **`Tab Center Reborn`**, go to **`Preferences`** and set:
-  + Animations: on.
-  + Use current browser theme: on, if you want to use dark mode.
-  + Compact Mode: either "Dynamic" or "Enabled". It works with "Disabled" too but looks nicer with only favicons.
-  + Favicon-only pinned tabs: off.
-  + Activate **`Custom Stylesheet`** and paste the contents of verttabs.css into the text area below, and click **`Save CSS`** under the textbox.
+   + Animations: on.
+   + Use current browser theme: on, if you want to use dark mode.
+   + Compact Mode: either "Dynamic" or "Enabled". It works with "Disabled" too but looks nicer with only favicons.
+   + Favicon-only pinned tabs: off.
+   + Activate **`Custom Stylesheet`** and paste the contents of verttabs.css into the text area below, and click **`Save CSS`** under the textbox.
 8. Restart Firefox.
 9. Enjoy your new Firefox!
 
