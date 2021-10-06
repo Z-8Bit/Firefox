@@ -3,15 +3,15 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 
 ## Types
 
-1. Modified Proton
+### 1. Modified Proton
 ![image](https://user-images.githubusercontent.com/72144072/136144170-929ab3a9-631a-4c26-9e27-e197731a3a79.png)
 ![image](https://user-images.githubusercontent.com/72144072/136144182-64bad7e3-1e73-4276-9fed-0986dca2d7fc.png)
 
-2. Defaultish Proton 
+### 2. Defaultish Proton 
 ![image](https://user-images.githubusercontent.com/72144072/136144226-c0794cf3-5210-4d74-9746-69fae39b4230.png)
 ![image](https://user-images.githubusercontent.com/72144072/136144234-acc65654-cead-45b7-8cdb-46fbdb722d9a.png)
 
-3. Vertical Tabs (WIP)
+### 3. Vertical Tabs (WIP)
 ![image](https://user-images.githubusercontent.com/72144072/136144272-d5d30a27-e7c6-44c0-abec-f53f9277a85e.png)
 ![image](https://user-images.githubusercontent.com/72144072/136144289-c678fd9f-d72d-4cc1-9d41-8ce7de9342c7.png)
 
