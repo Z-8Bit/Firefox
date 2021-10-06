@@ -1,2 +1,2 @@
-# Firefox
-Just me forking other people's useraChrome CSS and modifying it to my liking.
+# Firefox CSS
+Just me forking other people's userChrome CSS and modifying it to my liking.
