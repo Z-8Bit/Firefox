@@ -27,3 +27,16 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 5. Paste userChrome.css file into the folder.
 6. Restart Firefox
 7. Enjoy your new Firefox!
+
+## Credits
+
+_These files are not 100% my original work, they are forked from other repositories and I am grateful for their work._
+
+1. Modified Proton inspired by Cascade 
+https://github.com/andreasgrafen/cascade
+
+2. Defaultish Proton inspired by OneLineProton
+https://github.com/lr-tech/OnelineProton
+
+3. Vertical Tabs inspired by FF-vertical-tabs
+https://git.sr.ht/~ranmaru/ff-vertical-tabs
