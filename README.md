@@ -16,7 +16,7 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 ![image](https://user-images.githubusercontent.com/72144072/136144289-c678fd9f-d72d-4cc1-9d41-8ce7de9342c7.png)
 
 
-## Installation
+## Install Modified Proton and Defaultish Proton
 
 1. In the searchbar, type `about:config`. A dialog will be shown to you. Press the **I accept the risk** button.
 2. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`** and change it to **True**.
@@ -27,6 +27,24 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 5. Paste userChrome.css file into the folder.
 6. Restart Firefox
 7. Enjoy your new Firefox!
+
+## Install Vertical Tabs
+
+- Go to =about:config= in your URL bar, search for ~toolkit.legacyUserProfileCustomizations.stylesheets~ and set it to ~true~.
+- Go to =about:profiles= in your URL bar, click "Open Directory" next to your Root Directory under your default profile
+  + If there is no =chrome= folder, create it.
+  + Create a file called =userChrome.css= inside the =chrome= folder.
+  + Copy & Paste the contents of [[https://raw.githubusercontent.com/ranmaru22/firefox-vertical-tabs/main/userChrome.css][userChrome.css]] into your =userChrome.css= file.
+
+- Install the [[https://addons.mozilla.org/en-US/firefox/addon/tabcenter-reborn/][Tab Center Reborn]] extension.
+  + Make sure to enable "Allow this extension to run in Private windows" so you're not left stranded while browsing.
+- Go to =about:addons= in your URL bar, select /Tab Center Reborn/, go to /Preferences/ and set:
+  + /Animations/: on.
+  + /Use current browser theme/: on, if you want to use dark mode.
+  + /Compact Mode/: either "Dynamic" or "Enabled". It works with "Disabled" too but looks nicer with only favicons.
+  + /Favicon-only pinned tabs/: off.
+  + Activate /Custom Stylesheet/ and paste the contents of [[https://raw.githubusercontent.com/ranmaru22/firefox-vertical-tabs/main/tabCenterReborn.css][tabCenterReborn.css]] into the text area below, and click "Save CSS" under the textbox.
+- Restart Firefox.
 
 ## Credits
 
