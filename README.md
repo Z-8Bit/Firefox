@@ -15,6 +15,9 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 ![image](https://user-images.githubusercontent.com/72144072/136144272-d5d30a27-e7c6-44c0-abec-f53f9277a85e.png)
 ![image](https://user-images.githubusercontent.com/72144072/136144289-c678fd9f-d72d-4cc1-9d41-8ce7de9342c7.png)
 
+### 4. Bottom Tabs (WIP)
+![image](https://user-images.githubusercontent.com/72144072/139586499-2b6b42c3-96a3-47f7-8e17-c8277ed01d00.png)
+
 
 ## Install Modified Proton and Defaultish Proton
 
