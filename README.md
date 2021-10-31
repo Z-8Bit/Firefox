@@ -19,7 +19,7 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 ![image](https://user-images.githubusercontent.com/72144072/139586499-2b6b42c3-96a3-47f7-8e17-c8277ed01d00.png)
 
 
-## Install Modified Proton and Defaultish Proton
+## Install Modified Proton, Defaultish Proton and Bottom Tabs
 
 1. In the searchbar, type **`about:config`**. A dialog will be shown to you. Press the **`I accept the risk`** button.
 2. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`** and change it to **`True`**.
