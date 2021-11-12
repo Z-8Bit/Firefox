@@ -55,7 +55,7 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 
 ## Install NightTab
 
-1. Get the [NightTab](https://addons.mozilla.org/en-GB/firefox/addon/nighttab/) extension from here.
+1. Get the [NightTab](https://addons.mozilla.org/en-GB/firefox/addon/nighttab/) extension.
 2. Open a new tab and click the gear/settings icon on the top left/right.
 3. Scroll down to Data < Restore and select the import from file option.
 4. After downloading my file, just select it using that button.
