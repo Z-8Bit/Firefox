@@ -18,6 +18,8 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 ### 4. Bottom Tabs (WIP)
 ![image](https://user-images.githubusercontent.com/72144072/139586499-2b6b42c3-96a3-47f7-8e17-c8277ed01d00.png)
 
+## Bonus!
+![image](https://user-images.githubusercontent.com/72144072/141451276-cb5c33d4-ec03-4647-bfed-b6451d8a35e5.png)
 
 ## Install Modified Proton, Defaultish Proton and Bottom Tabs
 
@@ -50,6 +52,15 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
    + Activate **`Custom Stylesheet`** and paste the contents of verttabs.css into the text area below, and click **`Save CSS`** under the textbox.
 8. Restart Firefox.
 9. Enjoy your new Firefox!
+
+## Install NightTab
+
+1. Get the [NightTab](https://addons.mozilla.org/en-GB/firefox/addon/nighttab/) extension from here.
+2. Open a new tab and click the gear/settings icon on the top left/right.
+3. Scroll down to Data < Restore and select the import from file option.
+4. After downloading my file, just select it using that button.
+5. If you want to add this as your homepage too, go to your new tab, and on that page navigate to firefox settings and under Homepage, select "use current page".
+6. Enjoy! 
 
 ## Credits
 
