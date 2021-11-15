@@ -46,3 +46,8 @@
   padding-left: calc(var(--toolbarbutton-inner-padding) - 2px) !important;
   padding-right: calc(var(--toolbarbutton-inner-padding) - 2px) !important;
 }
+
+/* Hide Extension Name Unless Site Identity Area is Hovered */
+#identity-box.extensionPage:not(:hover) #identity-icon-labels {
+  display: none !important;
+}
