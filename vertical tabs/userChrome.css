@@ -21,10 +21,8 @@
       }
 
     #TabsToolbar .titlebar-buttonbox-container {
-          visibility: visible !important;
-          position: absolute;
-          top: 12px;
-          left: 0px;
+          visibility: none !important;
+          position: absolute;;
       }
 
     .titlebar-buttonbox-container {
