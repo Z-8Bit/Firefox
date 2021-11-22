@@ -23,8 +23,7 @@
   margin-right: -80px;
 }
 
-/* KEYMASTERR personal taste */
-  /* I really don't like that double arrow for hidden extensions */
+/* I really don't like that double arrow for hidden extensions */
   #nav-bar-overflow-button {
     list-style-image: url("chrome://global/skin/icons/more.svg") !important;
   }
