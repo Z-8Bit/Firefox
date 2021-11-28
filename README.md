@@ -61,7 +61,9 @@ _Just me forking other people's userChromeCSS and modifying it to my liking._
 2. Open a new tab and click the gear/settings icon on the top left/right.
 3. Download my nighttab Json file. 
 4. Scroll down to **`Data < Restore`** and select the **`Import from file`** option.
-5. If you want to add this as your homepage too, open a new firefox window and open two of the new tabs, page navigate to firefox settings and under **`Homepage`**, select **`Use current page`**.
+5. If you want to add this as your homepage too:- 
+   + Open a new firefox window and open two of the new tabs.
+   + Navigate to firefox settings and under **`Homepage`**, select **`Use current page`**.
 6. Enjoy your new nighttab! 
 
 ## Credits
