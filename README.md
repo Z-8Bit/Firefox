@@ -18,7 +18,7 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 ### 4. Bottom Tabs 
 ![image](https://user-images.githubusercontent.com/72144072/139586499-2b6b42c3-96a3-47f7-8e17-c8277ed01d00.png)
 
-### 5. Safari Bottom Tabs 
+### 5. Safari Bottom Tabs [Using Dark Space theme](https://addons.mozilla.org/en-US/firefox/addon/nicothin-space/)
 ![image](https://user-images.githubusercontent.com/72144072/143779726-310e0808-58bf-41de-aa36-e8ce49f6a998.png)
 
 ## Bonus Nighttab Json!
@@ -76,4 +76,4 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 
 3. Vertical Tabs inspired by [FF-vertical-tabs](https://git.sr.ht/~ranmaru/ff-vertical-tabs)
 
-Massive thanks to my friend [ZtereoHype](https://github.com/ZtereoHYPE) for his help in the Bottom Safari Tabs CSS, this wouldn't have been possible without him.
+<b>Massive thanks to my friend [ZtereoHype](https://github.com/ZtereoHYPE) for his help in the Bottom Safari Tabs CSS, this wouldn't have been possible without him.</b>
