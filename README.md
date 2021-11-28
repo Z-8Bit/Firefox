@@ -11,7 +11,7 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 ![image](https://user-images.githubusercontent.com/72144072/136144226-c0794cf3-5210-4d74-9746-69fae39b4230.png)
 ![image](https://user-images.githubusercontent.com/72144072/136144234-acc65654-cead-45b7-8cdb-46fbdb722d9a.png)
 
-### 3. Vertical Tabs (WIP)
+### 3. Vertical Tabs
 ![image](https://user-images.githubusercontent.com/72144072/136144272-d5d30a27-e7c6-44c0-abec-f53f9277a85e.png)
 ![image](https://user-images.githubusercontent.com/72144072/136144289-c678fd9f-d72d-4cc1-9d41-8ce7de9342c7.png)
 
@@ -21,7 +21,7 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 ### 5. Safari Bottom Tabs [Using Dark Space theme](https://addons.mozilla.org/en-US/firefox/addon/nicothin-space/)
 ![image](https://user-images.githubusercontent.com/72144072/143779726-310e0808-58bf-41de-aa36-e8ce49f6a998.png)
 
-## Bonus Nighttab Json!
+## Bonus Nighttab Json! (Updated image above)
 ![image](https://user-images.githubusercontent.com/72144072/143178970-6d699e73-ef43-42ef-b3c3-6ee17f303e47.png)
 
 
