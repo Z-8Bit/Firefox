@@ -15,14 +15,17 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 ![image](https://user-images.githubusercontent.com/72144072/136144272-d5d30a27-e7c6-44c0-abec-f53f9277a85e.png)
 ![image](https://user-images.githubusercontent.com/72144072/136144289-c678fd9f-d72d-4cc1-9d41-8ce7de9342c7.png)
 
-### 4. Bottom Tabs (WIP)
+### 4. Bottom Tabs 
 ![image](https://user-images.githubusercontent.com/72144072/139586499-2b6b42c3-96a3-47f7-8e17-c8277ed01d00.png)
 
-## Bonus!
+### 5. Safari Bottom Tabs 
+![image](https://user-images.githubusercontent.com/72144072/143779726-310e0808-58bf-41de-aa36-e8ce49f6a998.png)
+
+## Bonus Nighttab Json!
 ![image](https://user-images.githubusercontent.com/72144072/143178970-6d699e73-ef43-42ef-b3c3-6ee17f303e47.png)
 
 
-## Install Modified Proton, Defaultish Proton and Bottom Tabs
+## Install Modified Proton, Defaultish Proton, Bottom Tabs, Safari Bottom Tabs
 
 1. In the searchbar, type **`about:config`**. A dialog will be shown to you. Press the **`I accept the risk`** button.
 2. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`** and change it to **`True`**.
@@ -72,3 +75,5 @@ _Just me forking other people's userChrome CSS and modifying it to my liking._
 2. Defaultish Proton inspired by [OneLineProton](https://github.com/lr-tech/OnelineProton)
 
 3. Vertical Tabs inspired by [FF-vertical-tabs](https://git.sr.ht/~ranmaru/ff-vertical-tabs)
+
+Massive thanks to my friend [ZtereoHype](https://github.com/ZtereoHYPE) for his help in the Bottom Safari Tabs CSS, this wouldn't have been possible without him.
