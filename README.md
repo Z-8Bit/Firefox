@@ -1,8 +1,6 @@
 # Firefox CSS
 _Just me forking other people's userChrome CSS and modifying it to my liking._
 
-## Types
-
 ### 1. Modified Proton
 ![image](https://user-images.githubusercontent.com/72144072/136144170-929ab3a9-631a-4c26-9e27-e197731a3a79.png)
 ![image](https://user-images.githubusercontent.com/72144072/136144182-64bad7e3-1e73-4276-9fed-0986dca2d7fc.png)
