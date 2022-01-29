@@ -16,7 +16,7 @@ _Just me forking other people's userChromeCSS and modifying it to my liking._
 ### 4. Bottom Tabs 
 ![image](https://user-images.githubusercontent.com/72144072/139586499-2b6b42c3-96a3-47f7-8e17-c8277ed01d00.png)
 
-### 5. Safari Bottom Tabs [Using Dark Space theme](https://addons.mozilla.org/en-US/firefox/addon/nicothin-space/)
+### 5. Safari Bottom Tabs using [Dark Space theme](https://addons.mozilla.org/en-US/firefox/addon/nicothin-space/)
 ![image](https://user-images.githubusercontent.com/72144072/143779726-310e0808-58bf-41de-aa36-e8ce49f6a998.png)
 
 ## Bonus Nighttab Json! (Updated image above)
