@@ -2,7 +2,7 @@
 
 :root {
     --uc-identity-color-pink:      #fa9abc;
-    --navbarWidth     : 360px; /* Set width of navbar. Use px for a fixed width 
+    --navbarWidth     : 500px; /* Set width of navbar. Use px for a fixed width 
                                   or vw for a percentage of your window. */
     --animationSpeed  : 0.15s;
   
