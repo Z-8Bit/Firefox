@@ -81,11 +81,6 @@ border-width: 2px !important;
       box-shadow: 0 1px 4px rgba(0, 0, 0, .05) !important;
   }
 
-/* COLOUR OF URL BAR ADDRESS UNDERLINE */
-.urlbarView div {border-image: 1 0 0 0 linear-gradient(90deg, #9400FF, #ba00e5, #df06b9, #e62da7, #f13b95, #f64d86, #f85f7a, #fc7169, #f9845b, #e8ab52) !important;
-border-width: 1.5px !important;
-}
-
 /* Show urlbar rersults on two lines */
 .urlbarView-row-inner{ flex-wrap: wrap !important; }
 
@@ -93,17 +88,6 @@ border-width: 1.5px !important;
 .urlbarView-row > .urlbarView-row-inner > .urlbarView-url{ min-width: 95% }
 
 .urlbarView-row[has-url]:not([type="switchtab"]) .urlbarView-title-separator{ display: none }
-
-/* Remove additional buttons from the URL bar, but show them on hover with a small delay */
-#urlbar-input-container>#page-action-buttons {
-  opacity: 0;
-  transition: all .5s ease-in-out;
-}
-
-#urlbar-input-container:hover>#page-action-buttons {
-  animation: .5s delayedFadeIn ease-in-out;
-  opacity: 1;
-}
 
 @keyframes delayedFadeIn {
   0% {
@@ -117,33 +101,32 @@ border-width: 1.5px !important;
   }
 }
 
-/* ROW HEIGHT FOR URL DROPDOWN */
+/* URL BAR TINKERING */
+/* ROW HEIGHT FOR URL DROPDOWN
   .urlbarView-row:not([type="search"]) {
     position: relative !important;
     height: 45px !important;
     padding: 2px !important;
-  }
+}
 
-  /* COLOUR & SIZE OF TITLE SECTION OF URLBAR DROPDOWN TEXT */
+/* COLOUR & SIZE OF TITLE SECTION OF URLBAR DROPDOWN TEXT 
   #PopupAutoCompleteRichResult .autocomplete-richlistitem:not([actiontype="searchengine"]) .ac-title,
   .urlbarView-row:not([type="search"]) .urlbarView-title  {
     left: 54px;
     top: 2px;
     font-size: 14px !important;
     font-weight: bold;
-    color: #565656 !important;
-  }
+}
 
-/* FONT SIZE OF ADDRESS SECTION OF URLBAR DROPDOWN TEXT */
+/* FONT SIZE OF ADDRESS SECTION OF URLBAR DROPDOWN TEXT
 .urlbarView-row-inner{ flex-wrap: wrap !important; }
 .urlbarView-title[title]{ flex-grow: 1; }
 .urlbarView-row > .urlbarView-row-inner > .urlbarView-url{ margin-inline-start: 25px; min-width: 95% }
-.urlbarView-row[has-url]:not([type="switchtab"]) .urlbarView-title-separator{ display: none }
 .urlbarView{
   font-size: 15px !important;
 }
 
-/* GRADIENT for URL dropdown selection Highlight & Selected Link Text*/
+/* GRADIENT for URL dropdown selection Highlight & Selected Link Text
 .urlbarView-row[selected] > .urlbarView-row-inner,
 .urlbarView-row-inner[selected] {
     background: var(--autocomplete-popup-highlight-background-border-image) !important;
@@ -157,16 +140,16 @@ border-width: 1.5px !important;
   --urlbar-popup-url-color: #898989;
 }
 
-/* RADIUS OF URL DROPDOWN SELECTION HIGHLIGHTS */
+/* RADIUS OF URL DROPDOWN SELECTION HIGHLIGHTS 
 .urlbarView-row[selected] >.urlbarView-row-inner { border-radius: 14px !important; }
 .urlbarView-row-inner { border-radius: 14px !important; }
 
-/* REMOVE "SEARCH" & "VISIT" FROM URL BAR*/
+/* REMOVE "SEARCH" & "VISIT" FROM URL BAR
 #urlbar[usertyping] .urlbarView-row:not([type]):first-child,
 #urlbar[usertyping] .urlbarView-row[type="search"]:first-child,
 .urlbarView-row[type="tabtosearch"] {
   display: none !important;
-}
+}*/
 
 /* TABS ON BOTTOM */
 :root{
