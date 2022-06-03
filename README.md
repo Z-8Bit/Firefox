@@ -71,9 +71,9 @@ _Just me forking other people's userChromeCSS and modifying it to my liking._
    + Navigate to firefox settings and under **`Homepage`**, select **`Use current page`**.
 6. Enjoy your new nighttab! 
 
-## Credits
+## Credits:
 
-<b>These files are not 100% my original work, they are forked from other repositories and I am grateful for their contribution to the Firefox CSS community :)</b>
+<b>Some of these files are not 100% my original work, they are forked from other repositories and I am grateful for their contribution to the Firefox CSS community :)</b>
 
 1. Modified Proton inspired by [Cascade](https://github.com/andreasgrafen/cascade) 
 
@@ -81,4 +81,12 @@ _Just me forking other people's userChromeCSS and modifying it to my liking._
 
 3. Vertical Tabs inspired by [FF-vertical-tabs](https://git.sr.ht/~ranmaru/ff-vertical-tabs)
 
-<b>Massive thanks to my friend [ZtereoHype](https://github.com/ZtereoHYPE) for his help in the Bottom Safari Tabs CSS, this wouldn't have been possible without him.</b>
+4. Tabs Below URL-Bar inspired by [NetherSpark's UserChromecss](https://github.com/Netherspark/Firefox-CSS)
+
+<b>Massive thanks to my friend [ZtereoHype](https://github.com/ZtereoHYPE) for his help in the Bottom Safari Tabs CSS and other fixes, this wouldn't have been possible without him.</b>
+
+## Related projects of mine:
+-- [OceanBliss](https://github.com/Z-8Bit/oceanbliss) : A simple and fast startpage with big buttons.
+- [TreeBreeze](https://github.com/Z-8Bit/treebreeze) : A Startpage with a unique z-flex and To-Do List features.
+- [CloudySnowflake](https://github.com/Z-8Bit/cloudysnowflake) : A Startpage with a unique z-flex and To-Do List features. (Alternate Colour of TreeBreeze.)
+- [SimplySucculent](https://github.com/Z-8Bit/cloudysnowflake) : A minimal startpage with search and shortcuts.
