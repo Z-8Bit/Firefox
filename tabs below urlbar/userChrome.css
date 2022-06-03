@@ -1,0 +1,305 @@
+/* URL BAR TEXT COLOUR, HIGHLIGHT COLOUR & HIGHLIGHTED TEXT COLOUR*/
+
+#urlbar-input::-moz-selection {
+    font-family: 'Fira Sans' !important;
+    font-size: 14px !important;
+    background-color: #cccccc !important;
+    border: 0px !important;
+    opacity: 1 !important;
+    color: #009999 !important;
+}
+
+/* TAB HEIGHT (default 41px) */
+:root {
+  --tab-min-height: 40px !important;
+}
+
+/* TAB LOADING COLOUR (doing this in Firefox Color results in a half grey & half coloured icon) */
+.tab-throbber::before {
+	fill: #009999 !important;
+	opacity: 1 !important;
+}
+
+/* TAB BURST COLOR (loading complete animation) */
+.tab-loading-burst[bursting]::before {
+  fill: #009999 !important
+}
+
+/* HIDES BORDER LINE AT BOTTOM OF UI (use "border-bottom-color" for custom colour) */
+#navigator-toolbox{
+	border-bottom: none !important;
+}
+
+/* TRANSPARENCY OF UNSELECTED TABS (0 = invisible) */
+.tab-background {
+  background-color: color-mix(in srgb, currentColor 7%, transparent);
+}
+
+/* URL BORDER THICKNESS */
+#urlbar-background {
+  border-width: 3px !important;
+  border-radius: 10px !important;
+}
+
+/* SEARCH BAR BORDER THICKNESS */
+#searchbar:focus-within {
+border-width: 2px !important;
+}
+
+/* SELECTED TAB BORDER THICKNESS */
+:root .tabbrowser-tab:is([visuallyselected="true"]) > .tab-stack > .tab-background {
+  box-shadow: none !important;
+  border: 2px solid var(--tab-line-color, var(--tabs-border-color, #009999)) !important;
+}
+
+/* TAB RADIUS */
+:root {
+  --tab-border-radius: 10px !important;
+}
+
+/* ADJUSTS GAP BETWEEN URL & TAB BAR (0px / 5px default) */
+.tab-background {
+  margin-block: 5px 5px !important;
+}
+
+/* REMOVE MEGABAR START
+    /* DISABLE EXPANDING START */
+    #urlbar[breakout][breakout-extend] {
+      top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+      left: 0 !important;
+      width: 100% !important;
+  }
+  
+  #urlbar[breakout][breakout-extend] > #urlbar-input-container {
+      height: var(--urlbar-height) !important;
+      padding-block: 1px !important;
+      padding-inline: 1px !important;
+  }
+  
+  #urlbar[breakout][breakout-extend] > #urlbar-background {
+      animation-name: none !important;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .05) !important;
+  }
+
+/* COLOUR OF URL BAR ADDRESS UNDERLINE */
+.urlbarView div {border-image: 1 0 0 0 linear-gradient(90deg, #9400FF, #ba00e5, #df06b9, #e62da7, #f13b95, #f64d86, #f85f7a, #fc7169, #f9845b, #e8ab52) !important;
+border-width: 1.5px !important;
+}
+
+/* Show urlbar rersults on two lines */
+.urlbarView-row-inner{ flex-wrap: wrap !important; }
+
+.urlbarView-title[title]{ flex-grow: 1; }
+.urlbarView-row > .urlbarView-row-inner > .urlbarView-url{ min-width: 95% }
+
+.urlbarView-row[has-url]:not([type="switchtab"]) .urlbarView-title-separator{ display: none }
+
+/* Remove additional buttons from the URL bar, but show them on hover with a small delay */
+#urlbar-input-container>#page-action-buttons {
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+#urlbar-input-container:hover>#page-action-buttons {
+  animation: .5s delayedFadeIn ease-in-out;
+  opacity: 1;
+}
+
+@keyframes delayedFadeIn {
+  0% {
+      opacity: 0;
+  }
+  35% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* ROW HEIGHT FOR URL DROPDOWN */
+  .urlbarView-row:not([type="search"]) {
+    position: relative !important;
+    height: 45px !important;
+    padding: 2px !important;
+  }
+
+  /* COLOUR & SIZE OF TITLE SECTION OF URLBAR DROPDOWN TEXT */
+  #PopupAutoCompleteRichResult .autocomplete-richlistitem:not([actiontype="searchengine"]) .ac-title,
+  .urlbarView-row:not([type="search"]) .urlbarView-title  {
+    left: 54px;
+    top: 2px;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #565656 !important;
+  }
+
+/* FONT SIZE OF ADDRESS SECTION OF URLBAR DROPDOWN TEXT */
+.urlbarView-row-inner{ flex-wrap: wrap !important; }
+.urlbarView-title[title]{ flex-grow: 1; }
+.urlbarView-row > .urlbarView-row-inner > .urlbarView-url{ margin-inline-start: 25px; min-width: 95% }
+.urlbarView-row[has-url]:not([type="switchtab"]) .urlbarView-title-separator{ display: none }
+.urlbarView{
+  font-size: 15px !important;
+}
+
+/* GRADIENT for URL dropdown selection Highlight & Selected Link Text*/
+.urlbarView-row[selected] > .urlbarView-row-inner,
+.urlbarView-row-inner[selected] {
+    background: var(--autocomplete-popup-highlight-background-border-image) !important;
+}
+
+:root {
+    --autocomplete-popup-highlight-background-border-image: linear-gradient(90deg, rgba(197, 83, 223, 0.9), rgba(248, 60, 132, 0.9), rgba(248, 54, 70, 0.9), rgba(248, 116, 55, 0.9), rgba(250, 163, 42, 0.9));
+  }
+
+#urlbar{
+  --urlbar-popup-url-color: #898989;
+}
+
+/* RADIUS OF URL DROPDOWN SELECTION HIGHLIGHTS */
+.urlbarView-row[selected] >.urlbarView-row-inner { border-radius: 14px !important; }
+.urlbarView-row-inner { border-radius: 14px !important; }
+
+/* REMOVE "SEARCH" & "VISIT" FROM URL BAR*/
+#urlbar[usertyping] .urlbarView-row:not([type]):first-child,
+#urlbar[usertyping] .urlbarView-row[type="search"]:first-child,
+.urlbarView-row[type="tabtosearch"] {
+  display: none !important;
+}
+
+/* TABS ON BOTTOM */
+:root{
+  --uc-titlebar-padding: 0px; }
+:root[sizemode="maximized"][tabsintitlebar]{
+  --uc-titlebar-padding: 5px
+}
+
+.titlebar-buttonbox-container{
+  position: fixed;
+  top: var(--uc-titlebar-padding,0px);
+  right:0;
+  height: 40px;
+}
+
+:root[uidensity="compact"] 
+.titlebar-buttonbox-container{ 
+height: 32px 
+}
+#toolbar-menubar[inactive] > .titlebar-buttonbox-container{
+opacity: 0 
+}
+#navigator-toolbox{ 
+padding-top: var(--uc-titlebar-padding,0px) !important;
+}
+
+.titlebar-buttonbox-container > .titlebar-buttonbox{ height: 100%; }
+
+#titlebar{
+ -moz-box-ordinal-group: 2;
+  -moz-appearance: none !important;
+}
+
+.titlebar-placeholder,
+#TabsToolbar .titlebar-spacer{ display: none; }
+/* Also hide the toolbox bottom border which isn't at bottom with this setup */
+#navigator-toolbox::after{ display: none !important; }
+
+/* HIDE TAB BAR WITH ONLY ONE TAB */
+:root[sizemode="normal"] #nav-bar{ --uc-window-drag-space-width: 20px }
+#titlebar{ -moz-appearance: none !important; }
+#tabbrowser-tabs, #tabbrowser-tabs > .tabbrowser-arrowscrollbox, #tabbrowser-arrowscrollbox{ min-height: 0 !important; }
+
+:root:not([customizing]) #tabbrowser-tabs .tabs-newtab-button,
+:root:not([customizing]) #tabs-newtab-button,
+:root:not([customizing]) #TabsToolbar-customization-target > .toolbarbutton-1,
+:root:not([customizing]) #TabsToolbar .titlebar-button{
+  -moz-appearance: none !important;
+  height: 0px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  -moz-box-align: stretch;
+  margin: 0 !important;
+}
+
+:root:not([customizing]) #TabsToolbar-customization-target > .toolbarbutton-1 > .toolbarbutton-icon{
+  padding-block: 0px !important;
+  max-height: 28px;
+  height: 20px !important
+}
+
+#tabbrowser-tabs .tabbrowser-tab[first-visible-tab="true"][last-visible-tab="true"]{
+  visibility: collapse !important;
+}
+
+/* Button re-styling*/
+#tabs-newtab-button:hover,
+#tabbrowser-tabs .tabs-newtab-button:hover{ background-color: var(--toolbarbutton-hover-background) }
+
+#tabs-newtab-button > .toolbarbutton-icon,
+#tabbrowser-tabs .tabs-newtab-button > .toolbarbutton-icon{
+  padding: 0 !important;
+  transform: scale(0.6);
+  background-color: transparent !important;
+}
+/* Extra top padding  in maximized window */
+:root[sizemode="maximized"] #navigator-toolbox{ padding-top:7px !important; }
+
+/* Fix window controls not being clickable */
+:root[tabsintitlebar] #toolbar-menubar[autohide="true"][inactive]{
+  transition: height 0ms steps(1) 80ms;
+}
+#nav-bar{
+  border-inline: var(--uc-window-drag-space-width) solid var(--toolbar-bgcolor);
+}
+
+/* WINDOW BUTTONS */
+:root{
+  --uc-titlebar-padding: 0px; }
+:root[sizemode="maximized"][tabsintitlebar]{ --uc-titlebar-padding: 5px }
+
+.titlebar-buttonbox-container{
+  position: fixed;
+  display: block;
+  top: var(--uc-titlebar-padding,0px);
+  right:0;
+  height: 40px;
+}
+
+/* MOVE MENU BUTTON ("HAMBURGER") TO LEFT SIDE
+#PanelUI-button {
+  -moz-box-ordinal-group: 0;
+} */
+
+#customization-panel-container {
+  order: -1 !important;
+}
+
+#customization-panelWrapper {
+  align-items: start !important;
+}
+
+/* Moves View Image to the very top */
+menuitem[label="View Image"] { -moz-box-ordinal-group: 0 !important; }
+
+/* Moves View Video to the very top */
+menuitem[label="View Video"] { -moz-box-ordinal-group: 0 !important; }
+
+/* Restrains Menu Size for Bookmarks etc */
+:root {
+  --arrowpanel-menuitem-padding: 5px !important;
+}
+
+menupopup > menuitem, menupopup > menu {
+  padding-block: 0.3em !important;
+}
+
+/* Hide Extension Name Unless Site Identity Area is Hovered */
+#identity-box.extensionPage:not(:hover) #identity-icon-labels {
+	display: none !important;
+}
+
+/* I really don't like that double arrow for hidden extensions */
+#nav-bar-overflow-button {
+  list-style-image: url("chrome://global/skin/icons/more.svg") !important;
+}
