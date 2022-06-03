@@ -2,28 +2,33 @@
 _Just me forking other people's userChromeCSS and modifying it to my liking._
 
 ### 1. Modified Proton
-![image](https://user-images.githubusercontent.com/72144072/136144170-929ab3a9-631a-4c26-9e27-e197731a3a79.png)
-![image](https://user-images.githubusercontent.com/72144072/136144182-64bad7e3-1e73-4276-9fed-0986dca2d7fc.png)
+![image](https://user-images.githubusercontent.com/72144072/171836554-9af0e3c2-9d45-41c6-aab8-9fb1d47f5a9f.png)
+![image](https://user-images.githubusercontent.com/72144072/171836588-e85426e1-448f-4f48-93b0-bef27dba9af7.png)
 
 ### 2. Defaultish Proton 
 ![image](https://user-images.githubusercontent.com/72144072/171836129-bd1165eb-8044-4860-a4c9-2282b4b39eec.png)
 ![image](https://user-images.githubusercontent.com/72144072/171835972-0fff6151-0cb6-42a2-bc48-03d0a729d11f.png)
 
 ### 3. Vertical Tabs
-![image](https://user-images.githubusercontent.com/72144072/136144272-d5d30a27-e7c6-44c0-abec-f53f9277a85e.png)
-![image](https://user-images.githubusercontent.com/72144072/136144289-c678fd9f-d72d-4cc1-9d41-8ce7de9342c7.png)
+![image](https://user-images.githubusercontent.com/72144072/171836805-d8ca5c24-dd6a-4602-9e13-64959fb7ab28.png)
 
 ### 4. Bottom Tabs 
 ![image](https://user-images.githubusercontent.com/72144072/171834974-8564aac5-300e-48e1-a785-88345ac6b2b7.png)
 
-### 5. Safari Bottom Tabs using [Dark Space theme](https://addons.mozilla.org/en-US/firefox/addon/nicothin-space/)
-![image](https://user-images.githubusercontent.com/72144072/143779726-310e0808-58bf-41de-aa36-e8ce49f6a998.png)
+### 5. Safari Bottom Tabs
+![image](https://user-images.githubusercontent.com/72144072/171837010-e81c04fb-50e4-4a91-af11-09cd6a35e80a.png)
 
-## Bonus Nighttab Json! (Updated image above)
-![image](https://user-images.githubusercontent.com/72144072/143178970-6d699e73-ef43-42ef-b3c3-6ee17f303e47.png)
+### 6. Safari Tabs
+![image](https://user-images.githubusercontent.com/72144072/171837347-2c94b343-ed68-4d5b-964e-9885fe910f94.png)
 
+### 7. Tabs below URL-Bar
+![image](https://user-images.githubusercontent.com/72144072/171837533-b87dba98-d6f9-4bb1-bea5-31e76c84c991.png)
+![image](https://user-images.githubusercontent.com/72144072/171837627-ae12f0a9-4066-4c03-9946-3c6ea6abe730.png)
 
-## Install Modified Proton, Defaultish Proton, Bottom Tabs, Safari Bottom Tabs
+## Bonus Nighttab Json!
+![image](https://user-images.githubusercontent.com/72144072/171837942-7cc94ef5-43e6-4598-a441-342117cb20d0.png)
+
+## Installing Modified Proton, Defaultish Proton, Bottom Tabs, Safari Bottom Tabs, Safari Tabs or Tabs below URL-Bar:
 
 1. In the searchbar, type **`about:config`**. A dialog will be shown to you. Press the **`I accept the risk`** button.
 2. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`** and change it to **`True`**.
@@ -35,7 +40,7 @@ _Just me forking other people's userChromeCSS and modifying it to my liking._
 6. Restart Firefox
 7. Enjoy your new Firefox!
 
-## Install Vertical Tabs
+## Installing Vertical Tabs:
 
 1. In the searchbar, type **`about:config`**. A dialog will be shown to you. Press the **`I accept the risk`** button.
 2. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`** and change it to **`True`**.
@@ -55,7 +60,7 @@ _Just me forking other people's userChromeCSS and modifying it to my liking._
 8. Restart Firefox.
 9. Enjoy your new Firefox!
 
-## Install NightTab
+## Installing NightTab:
 
 1. Get the [NightTab](https://addons.mozilla.org/en-GB/firefox/addon/nighttab/) extension.
 2. Open a new tab and click the gear/settings icon on the top left/right.
