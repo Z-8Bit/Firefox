@@ -7,7 +7,7 @@ _Just me forking other people's userChromeCSS and modifying it to my liking._
 
 ### 2. Defaultish Proton 
 ![image](https://user-images.githubusercontent.com/72144072/171835739-c765f485-9dfe-4a69-9caa-e89bb126d0de.png)
-![image](https://user-images.githubusercontent.com/72144072/136144234-acc65654-cead-45b7-8cdb-46fbdb722d9a.png)
+![image](https://user-images.githubusercontent.com/72144072/171835972-0fff6151-0cb6-42a2-bc48-03d0a729d11f.png)
 
 ### 3. Vertical Tabs
 ![image](https://user-images.githubusercontent.com/72144072/136144272-d5d30a27-e7c6-44c0-abec-f53f9277a85e.png)
